@@ -1,0 +1,412 @@
+﻿{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="/static/assets/images/tol.png">
+
+    <title>Tola Homes</title>
+    
+	<!-- Vendors Style-->
+	<link rel="stylesheet" href="../static/template/vertical/src/css/vendors_css.css">
+	  
+	<!-- Style-->  
+	<link rel="stylesheet" href="../static/template/vertical/src/css/style.css">
+	<link rel="stylesheet" href="../static/template/vertical/src/css/skin_color.css">
+     
+  </head>
+
+<body class="hold-transition light-skin sidebar-mini theme-primary fixed">
+	
+<div class="wrapper">
+	<div id="loader"></div>
+	
+  <header class="main-header">
+	<div class="d-flex align-items-center logo-box justify-content-start">	
+		<!-- Logo -->
+		<a href="index.html" class="logo">
+		  <!-- logo-->
+		  <div class="logo-mini ">
+			<!-- <h2 style="text-align: center; color: white;">TOLAHOMES</h2> -->
+			  <span class="light-logo"><img src="/static/assets/images/thr.png" style="height: 60px; width: 190px !important" alt="logo"></span>
+			  <span class="dark-logo"><img src="../../../static/images/logo-letter-white.png" alt="logo"></span>
+		  </div>
+		  <div class="logo-lg">
+			  <!-- <span class="light-logo"><img src="../../../static/images/logo-light-text.png" alt="logo"></span> -->
+			  <!-- <span class="dark-logo"><img src="../../../static/images/logo-light-text.png" alt="logo"></span> -->
+		  </div>
+		</a>	
+	</div>   
+    <!-- Header Navbar -->
+    <nav class="navbar navbar-static-top">
+		<!-- Sidebar toggle button-->
+		<div class="app-menu">
+		  <ul class="header-megamenu nav">
+			  <li class="btn-group nav-item">
+				  <a href="#" class="waves-effect waves-light nav-link push-btn btn-primary-light" data-toggle="push-menu" role="button">
+					  <i data-feather="menu"></i>
+				  </a>
+			  </li>
+			 
+		  </ul> 
+		</div>
+		<div class="navbar-custom-menu r-side">
+		  <ul class="nav navbar-nav">
+			  <li class="btn-group d-md-inline-flex d-none">
+			  </li>
+			  <li class="dropdown notifications-menu btn-group ">
+				  <a href="#" class="waves-effect waves-light btn-primary-light svg-bt-icon" data-bs-toggle="dropdown" title="Notifications">
+					  <i data-feather="bell"></i>
+					  <div class="pulse-wave"></div>
+				  </a>
+				  <ul class="dropdown-menu animated bounceIn">
+					<li class="header">
+					  <div class="p-20">
+						  <div class="flexbox">
+							  <div>
+								  <h4 class="mb-0 mt-0">Notifications</h4>
+							  </div>
+							  <div>
+								  <a href="#" class="text-danger">Clear All</a>
+							  </div>
+						  </div>
+					  </div>
+					</li>
+					<li>
+					 
+					</li>
+					<li class="footer">
+						<a href="#">View all</a>
+					</li>
+				  </ul>
+			  </li>
+			  <!-- User Account-->
+			  <li class="dropdown user user-menu">
+				  <a href="#" class="waves-effect waves-light dropdown-toggle w-auto l-h-12 bg-transparent p-0 no-shadow" title="User" data-bs-toggle="dropdown">
+					  <img src="../../../static/images/avatar/avatar-13.png" class="avatar rounded-circle bg-primary-light h-40 w-40" alt="" />
+				  </a>
+				  <div class="dropdown-menu">
+					  <a class="dropdown-item my-5" href="profile">My Profile</a>
+					  <a class="dropdown-item my-5" href="logout">Logout</a>
+				  </div> 
+			  </li>
+		  </ul>
+		</div>
+	  </nav>
+  </header>
+    <aside class="main-sidebar" >
+    <!-- sidebar-->
+    <section class="sidebar position-relative" > 
+	  	<div class="multinav">
+		  <div class="multinav-scroll" style="height: 97%;">	
+			  <!-- sidebar menu-->
+			  <ul class="sidebar-menu" data-widget="tree">				
+				<li>
+				  <a href="dashboard">
+					<i data-feather="home"></i>
+					<span>Dashboard</span>
+					<span class="pull-right-container">
+					</span>
+				  </a>				
+				</li>
+				<li class="treeview">
+				  <a href="#">
+					<i data-feather="file-plus"></i>
+					<span>Our Services</span>
+					<span class="pull-right-container">
+					  <i class="fa fa-angle-right pull-right"></i>
+					</span>
+				  </a>					
+				  <ul class="treeview-menu">					
+					<li><a href="Buy_property"><i class="icon-Commit"><span class="path1"></span><span class="path2"></span></i>Buy Property</a></li>
+					<li><a href="Sale_property"><i class="icon-Commit"><span class="path1"></span><span class="path2"></span></i>Sale Property</a></li>
+					<li><a href="Rent_property"><i class="icon-Commit"><span class="path1"></span><span class="path2"></span></i>Rent/Lease Property</a></li>
+					<li><a href="Mortgage_property"><i class="icon-Commit"><span class="path1"></span><span class="path2"></span></i>Mortgage Property</a></li>
+				  </ul>
+				</li>    					
+				<li class="treeview">
+				  <a href="#">
+					<i data-feather="headphones"></i>
+					<span>Support</span>
+					<span class="pull-right-container">
+					  <i class="fa fa-angle-right pull-right"></i>
+					</span>
+				  </a>					
+				  <ul class="treeview-menu">					
+					<li><a href="extra_app_ticket.html"><i class="icon-Commit"><span class="path1"></span><span class="path2"></span></i>Support Ticket</a></li>
+					<li><a href="contact_app_chat.html"><i class="icon-Commit"><span class="path1"></span><span class="path2"></span></i>Chat</a></li>					
+				  </ul>
+				</li>
+				<li>
+				  <a href="profile">
+					<i data-feather="database"></i>
+					<span>Profile</span>
+					<span class="pull-right-container">
+					</span>
+				  </a>
+				</li> 
+				<li>
+				  <a href="#">
+					<i data-feather="edit"></i>
+					<span>Our Policy</span>
+					<span class="pull-right-container">
+					</span>
+				  </a>
+				</li>		
+				<li>
+				  <a href="logout">
+					<i data-feather="pie-chart"></i>
+					<span>Logout</span>
+					<span class="pull-right-container">
+					</span>
+				  </a>					
+				</li>			
+			  </ul>
+		  </div>
+		</div>
+    </section>
+  </aside>
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+	  <div class="container-full">
+		<!-- Main content -->
+		<section class="content">
+			<div class="row">
+				<div class="col-xl-3 col-12">			
+					<div class="box" style="background-color:  rgb(254, 200, 1);">
+						<div class="box-body">
+							<div class="flex-column">
+								<i class="fa fa-home fa-2x ps-5"></i>
+								<h3>Now Get <span class="font-bold">10% Off</span><br> on any of our services</h3>
+							</div>
+						</div>
+					</div>
+					<div class="box box-inverse" style="background-color: #ce1946 ;">
+					  <div class="box-header no-border">
+						  <span class="fa fa-twitter fs-30"></span>
+						  <div class="box-tools pull-right">
+							<h5 class="box-title">Twitter feed</h5>
+						  </div>
+					  </div>
+					  <div class="box-body p-0">
+						<blockquote class="blockquote blockquote-inverse no-border m-0 py-15">
+						  <p>Holisticly benchmark plug imperatives for multifunctional.</p>
+						  <div class="flexbox">
+							<time class="text-white-50">22 November, 2021</time>
+							<span><i class="fa fa-heart"></i> 62</span>
+						  </div>
+						</blockquote>
+					  </div>
+					</div>
+				</div>
+				<div class="col-xl-9 col-12">	
+				  <div class="box" style="background-color: #733aeb;">
+					<div class="box-header">
+					  <h3 style="text-transform:uppercase; color: white;" class="box-title">Welcome {{user.username}} !!</h3>
+					</div>
+					<div class="box-body">
+						<ul class="list-inline text-end">
+							<li>
+								<h5><i class="fa fa-circle me-5 text-info"></i>Site A View</h5>
+							</li>
+							<li>
+								<h5><i class="fa fa-circle me-5 text-danger"></i>Site B View</h5>
+							</li>
+						</ul>
+					  <div id="morris-area-chart2" style="height: 245px;"></div>
+					</div>
+				  </div>
+				</div>
+			</div>
+			<marquee>TolaHomes is the Right plug for your Real Estate..   Join! Today and Thank us later.</marquee>
+			  <div class="row">
+				<div class="col-xl-3 col-md-6 col-12">
+				  <div class="info-box">
+					<span class="info-box-icon bg-info rounded"><i class="fa fa-home my-float"></i></span>
+					<div class="info-box-content text-fade">
+					  <span class="info-box-number">90<small>%</small></span>
+					  <span class="info-box-text"><a href="buy_property">Buy Property</a></span>
+					</div>
+				  </div>
+				</div>
+				<div class="col-xl-3 col-md-6 col-12">
+				  <div class="info-box">
+					<span class="info-box-icon bg-success rounded"><i class="fa fa-bank my-float"></i></span>
+					<div class="info-box-content text-fade">
+					  <span class="info-box-number">41,410</span>
+					  <span class="info-box-text"><a href="Sale_property">Sale Property</a></span>
+					</div>
+				  </div>
+				</div>
+				<div class="col-xl-3 col-md-6 col-12">
+				  <div class="info-box">
+					<span class="info-box-icon bg-primary rounded"><i class="fa fa-building my-float"></i></span>
+					<div class="info-box-content text-fade">
+					  <span class="info-box-number">760</span>
+					  <span class="info-box-text"><a href="Rent_property">Rent Property</a></span>
+					</div>
+				  </div>
+				</div>
+				<div class="col-xl-3 col-md-6 col-12">
+				  <div class="info-box">
+					<span class="info-box-icon bg-danger rounded"><i class="fa fa-home my-float"></i></span>
+					<div class="info-box-content text-fade">
+					  <span class="info-box-number">2,000</span>
+					  <span class="info-box-text"><a href="Mortgage_property">Mortgage Property</a></span>
+					</div>
+				  </div>
+				</div>
+			  </div>
+
+			  <div class="row">
+				<div class="col-12 col-lg-4">
+					<div class="box">
+					  <div class="box-header with-border">
+						<center><img src="/static/assets/images/spt.png" height="60"></center>
+						<h4 style="text-align: center;" > Need Help?</h4>
+					  </div>
+					  
+					 <center> <div class="box-body">
+						<a class="btn btn-primary" href="#">Contact Us</a>
+						<a class="btn btn-success" href="#">Join whatsapp group</a>
+						
+					  </div></center>
+					</div>
+				  </div>
+
+				<div class="col-lg-8 col-12">
+					<div class="box">
+						<div class="box-body">
+							<h4 class="box-title">Statistics</h4>
+							<div class="table-responsive">
+								<table class="text-fade table">
+									<tbody>
+										<tr>
+											<td><h4>Total Registered Users</h4></td>
+											<td>{{total_users}}</td>
+											
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+					</div>
+				</div>
+			  </div>       
+			        
+			
+			  <div class="row">
+				<div class="col-xl-7 col-12">
+				  <div class="box">
+					<div class="box-header">
+					  <i class="fa fa-envelope"></i>
+					  <h3 class="box-title">Quick Email</h3>
+					  <div class="pull-right box-tools">
+						<button type="button" class="btn btn-danger btn-sm" data-widget="remove" data-toggle="tooltip" title="Remove"><i class="fa fa-times"></i></button>
+					  </div>
+					</div>
+					<div class="box-body">
+					  <form action="#" method="post">
+						<div class="form-group">
+						  <input type="email" class="form-control" name="emailto" placeholder="Email to:">
+						</div>
+						<div class="form-group">
+						  <input type="text" class="form-control" name="subject" placeholder="Subject">
+						</div>
+						<div>
+						  <textarea class="textarea b-1 p-10 w-p100" placeholder="Message"></textarea>
+						</div>
+					  </form>
+					</div>
+					<div class="box-footer clearfix">
+					  <button type="button" class="pull-right btn btn-primary" id="sendEmail"> Send <i class="fa fa-paper-plane-o"></i></button>
+					</div>
+				  </div>
+
+				
+
+				</div>
+				{% if user.is_superuser or user.is_staff %}
+				<div class="col-xl-5 col-12">
+					<div class="col">
+						<div class="box mb-0">
+						  <div class="box-body">
+							<div class="row">
+								  <div class="col-12">
+									  <h4>Admin Page </h4>
+									  <a class="btn btn-primary" href="500/page-does-not-exist-error/page/">Admin Panel</a>
+									  <!-- Start an Alert -->
+								  </div>
+								  
+							  </div>              
+						  </div>
+						  <!-- /.box-body -->
+						</div>
+						<!-- /.box -->
+					  </div>
+					
+				  </div> 
+				  {% endif %}
+			  </div>
+		</section>
+		<!-- /.content -->
+	  </div>
+  </div>
+  <!-- /.content-wrapper -->
+	
+
+  
+</div>
+<!-- ./wrapper -->
+	
+
+	
+	<!-- Page Content overlay -->
+	
+	
+	<!-- Vendor JS -->
+	<script src="../static/template/vertical/src/js/vendors.min.js"></script>
+	<script src="../static/template/vertical/src/js/pages/chat-popup.js"></script>
+    <script src="../../../static/assets1/icons/feather-icons/feather.min.js"></script>
+	
+	<script src="../../../static/assets1/vendor_components/raphael/raphael.min.js"></script>
+	<script src="../../../static/assets1/vendor_components/morris.js/morris.min.js"></script>
+	<script src="../../../static/assets1/vendor_components/apexcharts-bundle/dist/apexcharts.js"></script>	
+	<script src="../../../static/assets1/vendor_plugins/weather-icons/WeatherIcon.js"></script>
+	<script src="../../../static/assets1/vendor_components/moment/min/moment.min.js"></script>
+	<script src="../../../static/assets1/vendor_components/bootstrap-daterangepicker/daterangepicker.js"></script>
+	<script src="../../../static/assets1/vendor_components/bootstrap-datepicker/dist/js/bootstrap-datepicker.js"></script>
+	<script src="../../../static/assets1/vendor_plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.js"></script>
+	<script src="../../../static/assets1/vendor_components/jquery.peity/jquery.peity.js"></script>
+	
+	<!-- Lion Admin App -->
+	<script src="../static/template/vertical/src/js/demo.js"></script>
+	<script src="../static/template/vertical/src/js/template.js"></script>
+	<script src="../static/template/vertical/src/js/pages/dashboard.js"></script>
+
+	
+	<a style=" position:fixed;
+    width:65px;
+    height:65px;
+    bottom:25px;
+    left:30px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:50px;
+    box-shadow: 2px 2px 3px #999;
+    z-index:10000;" href="https://wa.me/+2349079076474" class="float" target="_blank">
+<i class="fa fa-whatsapp my-float" style=" margin-top:8px;"></i>
+</a> 
+	
+</body>
+
+</html>
